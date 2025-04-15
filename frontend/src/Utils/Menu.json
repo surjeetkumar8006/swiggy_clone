@@ -1,0 +1,384 @@
+[
+  {
+    "card": {
+      "card": {
+        "title": "Recommended",
+        "itemCards": [
+          {
+            "card": {
+              "info": {
+                "id": "120582088",
+                "name": "La Mushroom Pizza",
+                "category": "Pizza",
+                "imgName": "pizza.jpeg",
+                "description": "Farm Mushroom  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imageId": "pxpt61trmyelbdtnwfhi",
+                "inStock": 1,
+                "isVeg": 1,
+                "rating": "4.3",
+                "ratingCount": "8 ratings",
+                "ratingCountV2": "8",
+                "defaultPrice": 12500
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582113",
+                "name": "La Capsicum Pizza",
+                "category": "Pizza",
+                "description": "Roasted capsicum freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "all.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "variants": {},
+                "defaultPrice": 12500
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582220",
+                "name": "La Onion Pizza",
+                "category": "Pizza",
+                "description": "Caramalized onion freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imageId": "wivta0yxoknuluwfldef",
+                "defaultPrice": 12500
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "La Pineapple Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "curry.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Makhni Paneer Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "burger.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Butter Chicken Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "chow.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Bhuna Murg Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "thali.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Chicken Lahori Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "food.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "card": {
+      "card": {
+        "title": "Say Cheese",
+        "itemCards": [
+          {
+            "card": {
+              "info": {
+                "id": "120582089",
+                "name": "La Mushroom Pizza",
+                "category": "Pizza",
+                "description": "Farm Mushroom  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "pizza.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "rating": "4.3",
+                "ratingCount": "8 ratings",
+                "ratingCountV2": "8",
+                "defaultPrice": 12500
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582112",
+                "name": "La Capsicum Pizza",
+                "category": "Pizza",
+                "description": "Roasted capsicum freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "food.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "variants": {},
+                "defaultPrice": 12500
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582221",
+                "name": "La Onion Pizza",
+                "category": "Pizza",
+                "description": "Caramalized onion freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imageId": "wivta0yxoknuluwfldef",
+                "defaultPrice": 12500
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "La Pineapple Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "all.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Makhni Paneer Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "burger.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Butter Chicken Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "thali.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Bhuna Murg Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "curry.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582236",
+                "name": "Chicken Lahori Pizza",
+                "category": "Pizza",
+                "description": "Pineapple  freshly baked Pizza with secret recipe cheesy, spicy & creamy jalapeno cheese sauce sprinkled with 100% mozarella cheese and served with inhouse Chilli flakes & Oregano seasoning",
+                "imgName": "chow.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "defaultPrice": 12500,
+                "rating": "3.5",
+                "ratingCount": "3 ratings",
+                "ratingCountV2": "3"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+
+  {
+    "card": {
+      "card": {
+        "title": "Family Combo",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "120582259",
+                "name": "Pizza Combo",
+                "category": "Family Combo",
+                "description": "7\" Pizza + Potato Wedges (1 Dip) + Pepsi + Choco Lava Cake",
+                "imgName": "food.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 54900
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582260",
+                "name": "Garlic Bread Combo",
+                "category": "Family Combo",
+                "description": "7\" Pizza + Stuffed Garlic Bread (1 Dip) + Potato Wedges (1 Dip) + Pepsi + Choco Lava Cake",
+                "imgName": "pizza.jpeg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 64900
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582265",
+                "name": "Small Family Meal",
+                "category": "Family Combo",
+                "description": "7\" Pizza + Stuffed Garlic Bread (1 Dip) + Chicken Wings (2 Dips) + Potato Wedges (1 Dip) + 2 Pepsi + 2 Choco Lava Cake",
+                "imgName": "all.jpeg",
+                "inStock": 1,
+                "price": 84900
+              }
+            }
+          },
+          {
+            "card": {
+              "info": {
+                "id": "120582267",
+                "name": "Large Family Meal",
+                "category": "Family Combo",
+                "description": "14\" Pizza + Stuffed Garlic Bread (1 Dip) + Chicken Wings (2 Dips) + Potato Wedges (1 Dip) + 2 Pepsi + 2 Choco Lava Cake",
+                "imgName": "thali.jpeg",
+                "inStock": 1,
+                "price": 129900
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "card": {
+      "card": {
+        "title": "Kids Combo",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "123190540",
+                "name": "Non Veg Combo",
+                "category": "Kids Combo",
+                "description": "(Chicken Ham + Corn Monster Slice + 1 Chocolava + 1 Mocktail )",
+                "inStock": 1,
+                "imgName": "pizza.jpeg",
+                "price": 29900
+              }
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "123190541",
+                "name": "Veg Combo",
+                "category": "Kids Combo",
+                "imgName": "burger.jpeg",
+                "description": "(Pineapple + Corn Monster Slice + 1 Chocolava + 1 Mocktail )",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 29900
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+]

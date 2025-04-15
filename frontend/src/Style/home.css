@@ -1,0 +1,163 @@
+@import url("./base.css");
+.homePageContainer {
+  display: flex;
+  justify-content: center;
+  padding-left: 140px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+input {
+  margin-top: 90px;
+  width: 50%;
+}
+.card {
+  flex-basis: 22.5%;
+  width: 22.5%;
+  height: 320px;
+  padding: 4px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid transparent;
+}
+.card:hover {
+  border: 1px solid rgba(145, 162, 156, 0.5);
+  border-radius: 8px;
+}
+.homePageContainer > h2 {
+  border-bottom: 1px solid #d4d5d9;
+  margin-right: 140px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.card > img {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-right: 140px;
+}
+
+.cardData {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.cardResName {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.cuisineName {
+  font-size: 16px;
+  color: #3e4152;
+  word-break: break-word;
+  font-weight: 500;
+}
+.cuisinePrice {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.cuisineDesc {
+  line-height: 10px;
+  color: rgba(40, 44, 63, 0.45);
+  letter-spacing: -0.3px;
+  margin-top: 14px;
+}
+.cardResCuisines {
+  font-size: 14px;
+  color: rgb(142, 139, 139);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
+}
+.cardResInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+}
+.cardResRating {
+  border: 1px solid;
+  color: white;
+  background-color: #6caf96;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.cardResPrice {
+  font-size: 15px;
+  color: rgb(122, 129, 99);
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1189px) {
+  .cardContainer {
+    gap: 25px;
+  }
+  .card {
+    flex-basis: 21%;
+    width: 21%;
+  }
+}
+@media (max-width: 1000px) {
+  .cardContainer {
+    gap: 25px;
+  }
+  .card {
+    flex-basis: 28%;
+    width: 28%;
+  }
+  .slide {
+    width: 24%;
+    flex: 0 0 auto;
+  }
+}
+@media (max-width: 790px) {
+  .cardContainer {
+    gap: 25px;
+  }
+  .card {
+    flex-basis: 45%;
+    width: 45%;
+  }
+}
+
+@media (max-width: 730px) {
+  .cardContainer {
+    margin-right: 90px;
+    gap: 15px;
+  }
+  .card {
+    flex-basis: 42%;
+    width: 42%;
+  }
+
+  .homePageContainer {
+    padding-left: 90px;
+  }
+  .homePageContainer > h2 {
+    font-size: 18px;
+    margin-right: 90px;
+  }
+}
+@media (max-width: 535px) {
+  .cardContainer {
+    justify-content: center;
+    gap: 15px;
+  }
+  .card {
+    flex-basis: 80%;
+    width: 80%;
+  }
+}

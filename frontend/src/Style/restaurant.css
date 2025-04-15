@@ -1,0 +1,275 @@
+@import url("./base.css");
+.restPage {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 200px;
+}
+.path {
+  width: 55%;
+  font-size: 10px;
+  color: grey;
+  margin-bottom: 20px;
+}
+.menuItemsCont {
+  margin-top: 30px;
+  overflow: hidden;
+  border-bottom: 8px solid lightgrey;
+}
+.restcuisineCont > :last-child {
+  border: none;
+}
+.restContainerfood {
+  width: 55%;
+  padding-left: 15px;
+}
+.restInfo > p {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: rgba(2, 6, 12, 0.92);
+  padding-bottom: 20px;
+}
+.restcuisineCont {
+  width: 100%;
+  margin-top: 50px;
+}
+.foodCat {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 0px;
+  border-radius: 4px;
+}
+
+.menuContainer {
+  margin: 10px 0;
+}
+.promotedCard {
+  position: relative;
+  margin-right: 20px;
+  height: 350px;
+  width: 20%;
+}
+.menuContainer > :last-child {
+  border: none;
+}
+.menuFoodCard {
+  font-size: 14px;
+  margin-bottom: 7px;
+  padding: 7px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  border-bottom: 1px dotted lightgrey;
+}
+.menuFoodCardInfo {
+  width: 80%;
+}
+.menuFoodCardImageInfo {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.menuFoodCardImageInfo > img {
+  height: 100px;
+  width: 100%;
+  border-radius: 8px;
+}
+.cuisineName {
+  font-size: 18px;
+  color: rgba(2, 6, 12, 0.75);
+  word-break: break-word;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+.cuisinePrice {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.92);
+}
+.cuisineDesc {
+  line-height: 10px;
+  color: rgba(40, 44, 63, 0.45);
+  letter-spacing: -0.3px;
+  margin-top: 14px;
+  padding-top: 1px;
+  height: 29px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cardResCuisines {
+  font-size: 14px;
+  color: rgb(142, 139, 139);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
+}
+.cardResInfo {
+  display: flex;
+  gap: 7px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.fgfg {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  bottom: -10px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-family: var(--font-secondary);
+  cursor: pointer;
+  border: 1px solid lightgrey;
+}
+.addItems {
+  position: absolute;
+  background-color: white;
+  color: grey;
+  bottom: -10px;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: var(--font-primary);
+  cursor: pointer;
+  border: 1px solid lightgrey;
+}
+.addItems:hover {
+  color: #60b246;
+  font-weight: 700;
+}
+
+.fgfg button {
+  padding: 2px 6px;
+  text-align: center;
+  border: none;
+  background-color: white;
+  font-family: var(--font-primary);
+  color: grey;
+  cursor: pointer;
+}
+.fgfg button:hover {
+  color: #60b246;
+  font-weight: 700;
+}
+.fgfg button:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: 1px dotted lightgrey;
+}
+.fgfg button:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-left: 1px dotted lightgrey;
+}
+.fgfg span {
+  background-color: white;
+  color: grey;
+  padding: 2px 6px;
+}
+
+.restaurantInfo {
+  background: linear-gradient(
+    rgb(255, 255, 255) -6.71%,
+    rgb(235, 235, 242) 56.19%,
+    rgb(223, 223, 231) 106.56%
+  );
+  padding: 0px 16px 16px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+.restaurantInfoContainer {
+  border-radius: 20px;
+  border: 1px solid rgba(2, 6, 12, 0.15);
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px 0px;
+}
+.primary {
+  background-color: rgb(255, 238, 229);
+  border: 1px solid rgb(255, 238, 229);
+  padding: 16px 24px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.primary > p {
+  margin-bottom: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: rgb(241, 87, 0);
+}
+.secondary {
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.secondary > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.secondaryInfo > span {
+  color: grey;
+  font-size: 10px;
+}
+.secondary > p {
+  color: rgb(241, 87, 0);
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+}
+.secondary > div > p:first-child {
+  font-size: 14px;
+  font-weight: 700;
+}
+.secondary > div > p:last-child {
+  font-size: 14px;
+  color: grey;
+}
+.secondary > span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.restaurantService {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+.restaurantService > p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.92);
+  padding: 10px;
+  cursor: pointer;
+}
+.restaurantService > p:first-child {
+  border-bottom: 4px solid rgb(241, 87, 0);
+  border-radius: 2px;
+}
