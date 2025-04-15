@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
 import Help from "./Pages/Help";
 import Search from "./Pages/Search";
+import User from "./Pages/UserList";
 import Cart from "./Pages/Cart";
 import PageNotFound from "./Pages/PageNotFound";
 import Restaurant from "././Pages/Restaurant";
@@ -36,6 +37,10 @@ const a = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />,
+      },
+      {
+        path: "/user",
+        element: <User />,
       },
       {
         path: "*",

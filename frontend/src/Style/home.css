@@ -161,3 +161,94 @@ input {
     width: 80%;
   }
 }
+
+/* home.css */
+
+/* Style for the header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Style for the logo container */
+.logo__Container img {
+  width: 50px; /* Adjust logo size */
+}
+
+/* Hamburger menu styling (hidden by default on desktop) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  height: 4px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+/* Navigation items styling */
+.navItems {
+  display: flex;
+  align-items: center;
+}
+
+.navItems ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navItems ul li {
+  margin-left: 20px;
+}
+
+/* Active class for the navigation items on small screens */
+.navLinks.active {
+  display: flex;
+  position: absolute;
+  top: 60px; /* Adjust this value based on your header height */
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 10px 0;
+  align-items: center;
+}
+
+/* Hide the navigation links by default on small screens */
+.navLinks {
+  display: none;
+}
+
+/* Show the hamburger on smaller screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  /* Show the navigation items when the menu is active */
+  .navLinks.active {
+    display: flex;
+  }
+
+  .navItems ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navItems ul li {
+    margin: 15px 0;
+  }
+}

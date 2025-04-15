@@ -1,3 +1,4 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 body {
   height: 100%;
@@ -6,4 +7,105 @@ body {
 :root {
   --font-nunito: "Nunito";
   --color: #357960;
+}
+
+/* ✅ General Page Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ✅ Top Header Section */
+.container1 {
+  background-color: #2c5d75; /* Dark Blue */
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.header-section {
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.header-section h2 {
+  font-weight: 900;
+  font-size: 32px;  /* टेक्स्ट बड़ा कर दिया */
+  margin-bottom: 10px;
+}
+
+.header-section p {
+  font-size: 20px; /* टेक्स्ट बड़ा कर दिया */
+  opacity: 0.9;
+}
+
+/* ✅ Accordion Section */
+.accordion-item {
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 800; /* टेक्स्ट बोल्ड कर दिया */
+  font-size: 20px; /* टेक्स्ट बड़ा कर दिया */
+  padding: 18px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.accordion-button:hover {
+  background-color: #ff7f50; /* Coral */
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff7f50;
+  color: white;
+  box-shadow: none;
+}
+
+/* ✅ Accordion Body */
+.accordion-body {
+  background-color: #fffaf0; /* Light Ivory */
+  color: #333;
+  font-size: 18px; /* टेक्स्ट बड़ा कर दिया */
+  font-weight: 600; /* टेक्स्ट बोल्ड कर दिया */
+  padding: 20px;
+  border-left: 4px solid #ff7f50;
+  border-radius: 0 0 8px 8px;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .header-section {
+    padding: 30px 15px;
+  }
+
+  .header-section h2 {
+    font-size: 26px;
+  }
+
+  .header-section p {
+    font-size: 18px;
+  }
+
+  .accordion-button {
+    font-size: 18px;
+  }
+
+  .accordion-body {
+    font-size: 16px;
+  }
 }

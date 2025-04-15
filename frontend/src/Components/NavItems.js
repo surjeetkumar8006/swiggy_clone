@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "../Style/home.css";
 
 const NavItems = ({ path, name, type, src }) => {
   if (type === "item") {

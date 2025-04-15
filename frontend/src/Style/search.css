@@ -112,3 +112,31 @@
     margin: 110px 90px 50px 40px;
   }
 }
+.suggestedContent {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.suggestedContent h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.suggestedContent p {
+  font-size: 16px;
+  color: #555;
+}
+
+.suggestedContent ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.suggestedContent ul li {
+  font-size: 16px;
+  margin: 5px 0;
+}
